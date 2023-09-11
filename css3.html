@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Different Row Colors and Values</title>
+    <style>
+        /* Style the table container */
+        .colored-table {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        /* Style the table */
+        .colored-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Style table header */
+        .colored-table th {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Style table data cells */
+        .colored-table td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Define row colors */
+        .colored-table tr:nth-child(odd) {
+            background-color: #f2f2f2; /* Light gray for odd rows */
+        }
+
+        .colored-table tr:nth-child(even) {
+            background-color: #c0c0c0; /* Lighter gray for even rows */
+        }
+    </style>
+</head>
+<body>
+    <div class="colored-table">
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>Data 1A</td>
+                <td>Data 2A</td>
+                <td>Data 3A</td>
+            </tr>
+            <tr>
+                <td>Data 4A</td>
+                <td>Data 5A</td>
+                <td>Data 6A</td>
+            </tr>
+            <tr>
+                <td>Data 7A</td>
+                <td>Data 8A</td>
+                <td>Data 9A</td>
+            </tr>
+            <tr>
+                <td>Data 1B</td>
+                <td>Data 2B</td>
+                <td>Data 3B</td>
+            </tr>
+            <tr>
+                <td>Data 4B</td>
+                <td>Data 5B</td>
+                <td>Data 6B</td>
+            </tr>
+            <tr>
+                <td>Data 7B</td>
+                <td>Data 8B</td>
+                <td>Data 9B</td>
+            </tr>
+            <tr>
+                <td>Data 1C</td>
+                <td>Data 2C</td>
+                <td>Data 3C</td>
+            </tr>
+            <tr>
+                <td>Data 4C</td>
+                <td>Data 5C</td>
+                <td>Data 6C</td>
+            </tr>
+            <tr>
+                <td>Data 7C</td>
+                <td>Data 8C</td>
+                <td>Data 9C</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

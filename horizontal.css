@@ -1,0 +1,51 @@
+/* horizontal_nav.css */
+
+.horizontal-nav {
+    background-color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Set a lower z-index for the navigation bar */
+    overflow: hidden;
+  }
+  
+  /* Add Bootstrap components here with a higher z-index */
+  /* For example, if you have a Bootstrap container with the class "container" */
+  .container {
+    z-index: 2; /* Set a higher z-index for Bootstrap components */
+  }
+  
+  .horizontal-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .horizontal-nav li {
+    margin-right: 10px;
+    border: 1px solid transparent;
+  }
+  
+  .horizontal-nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .horizontal-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: yellow;
+  }
+  
+  .horizontal-nav li:first-child a {
+    background-color: pink;
+  }
+  
+  .horizontal-nav a:hover {
+    background-color: #ccc;
+  }
+  

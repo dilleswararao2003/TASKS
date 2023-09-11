@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>registration form</title>
+<style>
+     title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+    <h1 type="text-center "> registration form</h1>
+<table border="1">
+  <tr>
+    <td>First Name:</td>
+    <td><input type="text" name="first_name" type="text"></td>
+  </tr>
+  <tr>
+    <td>Last Name:</td>
+    <td><input type="text" name="last_name" type="text"></td>
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td><input type="email" name="email" type="email">
+  </tr>
+  <tr>
+    <td>Password:</td>
+    <td><input type="password" name="password"></td>
+  </tr>
+  <tr>
+    <td>Re-enter Password:</td>
+    <td><input type="password" name="re_password"></td>
+  </tr>
+  <tr>
+    <td>Gender:</td>
+    <td>
+      <input type="radio" name="gender" type="text"> Male
+      <input type="radio" name="gender" type="text"> Female
+    </td>
+  </tr>
+  <tr>
+    <td>Age:</td>
+    <td><input type="number" name="age" value="number"></td>
+  </tr>
+  <tr>
+    <td>Phone Number:</td>
+    <td><input type="tel" name="phone_number" type="number"></td>
+  </tr>
+  <tr>
+    <td>Address:</td>
+    <td><input type="text" name="address" type="text"></td>
+  </tr>
+  <tr>
+    <td>State:</td>
+    <td><input type="text" name="state" value=""></td>
+  </tr>
+  <tr>
+    <td>Country:</td>
+    <td>
+      <select name="country">
+        <option value="text"></option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>Languages Known:</td>
+    <td>
+      <input type="checkbox" name="languages[]" value="English"> English
+      <input type="checkbox" name="languages[]" value="Kannada"> Kannada
+      <input type="checkbox" name="languages[]" value="Hindi"> Hindi
+      <input type="checkbox" name="languages[]" value="Telugu"> Telugu
+    </td>
+  </tr>
+  <tr>
+    <td>Choose your country:</td>
+    <td>
+      <select name="choose_country">
+        <option value="India">India</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><button type="submit">Register</button></td>
+  </tr>
+</table>
+</body>
+</html>
